@@ -17,7 +17,7 @@ fi
 
 echo "→ 上传到 ${SSH_HOST}:${DEPLOY_DIR} ..."
 rsync -avz --delete \
-    --info=progress2 \
+    --progress \
     docs/.vitepress/dist/ \
     "${SSH_HOST}:${DEPLOY_DIR}/"
 
