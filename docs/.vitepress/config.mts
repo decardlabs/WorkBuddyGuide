@@ -4,7 +4,7 @@ import { siteSidebar } from "./sidebar";
 import { configureMermaidMarkdown } from "./mermaid-markdown";
 import { createPageDescription, createSeoHead } from "./seo";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy.homes";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://www.decard.cc";
 
 export default defineConfig({
     lang: "zh-CN",

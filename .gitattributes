@@ -1,0 +1,9 @@
+# 合并冲突时永远保留 fork 版本（我们修改过的文件）
+docs/.vitepress/config.mts         merge=ours
+docs/.vitepress/sidebar.ts         merge=ours
+docs/.vitepress/seo.ts             merge=ours
+docs/index.md                      merge=ours
+docs/public/robots.txt             merge=ours
+docs/public/_headers               merge=ours
+.gitattributes                     merge=ours
+README.md                          merge=ours
